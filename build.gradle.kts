@@ -12,6 +12,12 @@ repositories {
 }
 
 dependencies {
+    // picocli
+    implementation (files("libs/picocli-4.6.1.jar"))
+    // json
+    implementation ("com.google.code.gson:gson:2.8.7")
+
+    // test
     implementation("org.junit.jupiter:junit-jupiter:5.8.2")
     implementation("org.assertj:assertj-core:3.23.1")
     testImplementation(kotlin("test"))
