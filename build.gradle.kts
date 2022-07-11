@@ -15,7 +15,7 @@ dependencies {
     // picocli
     implementation (files("libs/picocli-4.6.1.jar"))
     // json
-    implementation ("com.google.code.gson:gson:2.8.7")
+    implementation ("com.google.code.gson:gson:2.9.0")
 
     // test
     implementation("org.junit.jupiter:junit-jupiter:5.8.2")
